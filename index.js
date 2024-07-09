@@ -12,5 +12,6 @@ console.log("All Lines:", allLines);
 let someLineID = allLines[1]; 
 let line = WebIFC.GetLine(modelID, someLineID);
 console.log("Line:", line);
+console.log("hello")
  
  
