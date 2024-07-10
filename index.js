@@ -1,6 +1,6 @@
 import * as WebIFC from "web-ifc";
 import * as fs from "node:fs";
-const filename = "tested_sample_project.ifc";
+const filename = "IDS_ArcDox.ids";
 const ifcAPI = new WebIFC.IfcAPI();
 await ifcAPI.Init();
 const ifcData = fs.readFileSync(filename);
