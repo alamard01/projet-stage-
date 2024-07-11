@@ -2,7 +2,7 @@
   "name": "projet-stage",
   "version": "1.0.0",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "web-ifc": "^0.0.55"
+    "web-ifc": "^0.0.55",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/node": "^20.14.10"
