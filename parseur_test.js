@@ -1,6 +1,3 @@
-// essayons d'itérer le parseur 
-
-
 import fs from 'fs';   // permet la manipulation des fichiers 
 const testFolder = 'C:\\Users\\Arthur\\Documents\\projet stage';
 fs.readdir(testFolder, (err, files) => {
