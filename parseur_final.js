@@ -1,6 +1,6 @@
-import fs from 'fs';     //  permet la manipulation des fichiers 
+import fs from 'fs';     // permet la manipulation des fichiers 
 import { parseString } from 'xml2js'; //  permet le parsing 
-const testFolder = 'C:\\Users\\Arthur\\Documents\\projet stage';
+const testFolder = 'C:\\Users\\Arthur\\Documents\\stage université cardiff\\projet stage';
 function parseXMLFile(filename) {//Fonction pour lire et parser un fichier XML
     fs.readFile(filename, 'utf-8', (err, data) => {  // Lit le fichier
         if (err) {   //  vérifie s'il y a une erreur (lecture)
